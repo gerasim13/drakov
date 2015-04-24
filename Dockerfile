@@ -1,4 +1,4 @@
-FROM node
+FROM node:0.10
 MAINTAINER Pavel Litvinenko <gerasim13@gmail.com>
 RUN npm install -g drakov
 VOLUME ["/blueprints"]
